@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+	paths: {
+		'@/*': ['./src/*'],
+		'@/styles/*': ['./src/styles/*'],
+	},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
